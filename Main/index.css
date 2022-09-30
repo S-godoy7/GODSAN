@@ -218,6 +218,29 @@ footer .container {
 
 }
 
+.iconWsp {
+    position: fixed;
+    background: #29c566;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 500;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.664);
+    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.562)
+}
+
+.iconWsp img {
+    width: 30px
+}
+
 @media (min-width: 850px) {
     header {
         position: fixed;
@@ -352,6 +375,18 @@ footer .container {
 
     footer .container {
         justify-content: flex-end;
+    }
+
+    .iconWsp {  
+        width: 80px;
+        height: 80px;
+        bottom: 30px;
+        right: 53px;        
+    }
+
+    .iconWsp img {
+        width: 40px;
+        height: auto;
     }
 
 }
